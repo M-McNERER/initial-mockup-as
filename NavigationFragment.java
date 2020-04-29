@@ -1,4 +1,4 @@
-package com.innovateatc.autoscreen.fragments;
+package com.intialmockup.as.fragments;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -18,12 +18,12 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.innovateatc.autoscreen.R;
-import com.innovateatc.autoscreen.others.ContextState;
-import com.innovateatc.autoscreen.others.Event;
-import com.innovateatc.autoscreen.others.GuidedWorkflow;
-import com.innovateatc.autoscreen.models.PatientViewModel;
-import com.innovateatc.autoscreen.others.WorkflowEvent;
+import com.intialmockup.as.R;
+import com.intialmockup.as.others.ContextState;
+import com.intialmockup.as.others.Event;
+import com.intialmockup.as.others.GuidedWorkflow;
+import com.intialmockup.as.models.PatientViewModel;
+import com.intialmockup.as.others.WorkflowEvent;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
