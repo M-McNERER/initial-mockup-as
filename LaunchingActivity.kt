@@ -11,8 +11,8 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.innovateatc.autoscreen.R
-import com.innovateatc.autoscreen.others.Settings
+import com.intialmockup.as.others.R
+import com.intialmockup.as.others.Settings
 import java.util.*
 
 
