@@ -1,4 +1,4 @@
-package com.innovateatc.autoscreen.activities;
+package com.initialmockup.as.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,30 +17,30 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.innovateatc.autoscreen.R;
-import com.innovateatc.autoscreen.fragments.GridLauncher;
-import com.innovateatc.autoscreen.fragments.CodingFragment;
-import com.innovateatc.autoscreen.fragments.AudioTipFragment;
-import com.innovateatc.autoscreen.fragments.SequencedInteraction;
-import com.innovateatc.autoscreen.fragments.VideoControllerFragment;
-import com.innovateatc.autoscreen.fragments.VideoTutorialFragment;
-import com.innovateatc.autoscreen.fragments.InformationFragment;
-import com.innovateatc.autoscreen.fragments.NavigationFragment;
-import com.innovateatc.autoscreen.fragments.ScreeningFragment;
-import com.innovateatc.autoscreen.fragments.SidebarFragment;
+import com.initialmockup.as.R;
+import com.initialmockup.as.fragments.GridLauncher;
+import com.initialmockup.as.fragments.CodingFragment;
+import com.initialmockup.as.fragments.AudioTipFragment;
+import com.initialmockup.as.fragments.SequencedInteraction;
+import com.initialmockup.asfragments.VideoControllerFragment;
+import com.initialmockup.asfragments.VideoTutorialFragment;
+import com.initialmockup.asfragments.InformationFragment;
+import com.initialmockup.as.fragments.NavigationFragment;
+import com.initialmockup.as.fragments.ScreeningFragment;
+import com.initialmockup.as.fragments.SidebarFragment;
 
-import com.innovateatc.autoscreen.models.CodeModel;
+import com.initialmockup.as.models.CodeModel;
 
-import com.innovateatc.autoscreen.models.IconModel;
-import com.innovateatc.autoscreen.others.SequenceDirective;
+import com.initialmockup.as.models.IconModel;
+import com.initialmockup.as.others.SequenceDirective;
 
-import com.innovateatc.autoscreen.others.CodingDirective;
-import com.innovateatc.autoscreen.others.ContextState;
-import com.innovateatc.autoscreen.others.Event;
-import com.innovateatc.autoscreen.others.GuidedWorkflow;
-import com.innovateatc.autoscreen.others.MediaEvent;
-import com.innovateatc.autoscreen.others.Utils;
-import com.innovateatc.autoscreen.others.WorkflowEvent;
+import com.initialmockup.as.others.CodingDirective;
+import com.initialmockup.as.others.ContextState;
+import com.initialmockup.as.others.Event;
+import com.initialmockup.as.others.GuidedWorkflow;
+import com.initialmockup.as.others.MediaEvent;
+import com.initialmockup.as.others.Utils;
+import com.initialmockup.as.others.WorkflowEvent;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
