@@ -1,4 +1,4 @@
-package com.innovateatc.autoscreen.activities
+package com.intialmockup.as.activities
 
 import android.Manifest
 import android.content.Intent
