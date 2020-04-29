@@ -89,7 +89,7 @@ public class GuidedActivity extends AppCompatActivity implements
 
         appBarMenu.setImageDrawable(Utils.styleDrawable(this, R.style.nav_icon_default, R.drawable.ic_checklist));
         appBarMenu.setOnClickListener(v -> {
-            Log.e(TAG, "onCreate: ASSES!" );
+            Log.e(TAG, "onCreate: uh oh!" );
         });
 
         if (findViewById(R.id.navigation_container) != null) {
