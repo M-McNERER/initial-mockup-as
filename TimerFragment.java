@@ -1,4 +1,4 @@
-package com.innovateatc.autoscreen.fragments;
+package com.initialmockup.as.fragments;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -16,9 +16,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 
-import com.innovateatc.autoscreen.R;
-import com.innovateatc.autoscreen.models.TimerViewModel;
-import com.innovateatc.autoscreen.others.Utils;
+import com.initialmockup.as.R;
+import com.initialmockup.as.models.TimerViewModel;
+import com.initialmockup.as.thers.Utils;
 
 /*
  * A simple {@link Fragment} subclass.
