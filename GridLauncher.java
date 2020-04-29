@@ -1,4 +1,4 @@
-package com.innovateatc.autoscreen.fragments;
+package com.initialmockup.as.fragments;
 
 import android.os.Bundle;
 import android.view.View;
@@ -9,10 +9,10 @@ import android.widget.TextView;
 import android.widget.ImageView;
 import android.widget.GridLayout;
 
-import com.innovateatc.autoscreen.R;
-import com.innovateatc.autoscreen.interfaces.Launcher;
-import com.innovateatc.autoscreen.others.Event;
-import com.innovateatc.autoscreen.models.IconModel;
+import com.initialmockup.as.R;
+import com.initialmockup.as.interfaces.Launcher;
+import com.initialmockup.as.others.Event;
+import com.initialmockup.as.models.IconModel;
 
 import java.util.ArrayList;
 
@@ -40,7 +40,8 @@ public class GridLauncher extends ScreeningFragment implements Launcher {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.frame_launcher, container, false);
-
+        rootContainer = container;
+        
         /*Inflate grid layout and add it to GridLauncher */
         gridLayout = view.findViewById(R.id.grid_launcher);
 
@@ -69,9 +70,16 @@ public class GridLauncher extends ScreeningFragment implements Launcher {
     }
 
     public void onNextListener(Event event) {
+         if (event instanceof WorkflowEvent) {
++            rootContainer.removeAllViews();
++        }
+        
     }
 
     public void onPrevListener(Event event) {
+         if (event instanceof WorkflowEvent) {
++            rootContainer.removeAllViews();
++        }
     }
 }
 
